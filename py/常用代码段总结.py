@@ -1,12 +1,16 @@
 # -*- coding: utf-8 -*-
+"""
+Created on Tue May 14 11:49:39 2019
+
+@author: zhangpingping
+"""
 # =============================================================================
 # 2019.04.24——2019.05.17
 # =============================================================================
-import numpy as np
+import numpy as np 
 import cv2
 import matplotlib.pyplot as plt
 import pandas as pd
-import json
 ############################################################  lambda/map/apply/
 
 list_ = [[1,1,3],[2,3,4],[3,2,5],[3,4,4]]
@@ -20,7 +24,7 @@ var = lambda x, y, z : (x + y) ** z
 print(var(1,2,2))
 
 # map+lambda(可以多个参数)+for/if
-map(lambda x: x*x, [y for y in range(10)])
+map( lambda x: x*x, [y for y in range(10)])
 [*map( lambda x: x*x, [y for y in range(10)])]
 
 map( lambda x : x + 1, list_)
