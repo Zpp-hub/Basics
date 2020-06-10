@@ -3,6 +3,7 @@ import cv2
 import json
 import numpy as np
 """
+pip freeze > requirements.txt
 函数名称：ellipseToPolygon
 函数功能：求椭圆上点的坐标
 输入：
