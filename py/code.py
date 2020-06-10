@@ -2,7 +2,6 @@ import os
 import cv2
 import json
 import numpy as np
-import numpy as np
 """
 函数名称：ellipseToPolygon
 函数功能：求椭圆上点的坐标
