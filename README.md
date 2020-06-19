@@ -12,5 +12,5 @@ activate.bat
 cd ../..  
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-####生成requirements.txt
+#### 生成requirements.txt
 pip freeze > requirements.txt
